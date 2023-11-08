@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+*{
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+#bloque{
+    text-align: center;
+    margin: 20% 15% 20% 15%;
+}
+
+a{
+    text-decoration: none;
+}
+
+#bloque2{
+        display: none;
+        background-image: url('taylorBackground.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed; /* Opcional: fija la imagen de fondo */
+    
+}
+
+#opcion1, #opcion2{
+    border: none;
+    border-radius: 0.25em;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700 ;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2), inset 0 -3px 0 rgba(0,0,0,0.22);
+    transition: 0.3s;
+}
+
+#opcion1{
+    background-color: #2ECC71;
+}
+
+#opcion2{
+    background-color: #D91E18;
+    top: 0px;
+    left: 0px;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -210px;
+  }
+  
+.imagem img{
+    width: auto;
+    height: 220px;
+  }
+
+body{
+    background-image: url("514389.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: 1s;
+}

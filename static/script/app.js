@@ -2,7 +2,7 @@ const opcion1 = document.getElementById('opcion1');
 const opcion2 = document.querySelector('#opcion2');
 const bloque = document.querySelector('#bloque');
 const bloque2 = document.querySelector('#bloque2');
-const audio = new Audio('lover-Song.mp3');
+const audio = new Audio('../lover-Song.mp3');
 
 const imagem = document.querySelector('#imagem');
 /*opcion2.addEventListener("mouseenter", () => {
@@ -30,19 +30,19 @@ opcion2.addEventListener("mouseenter", () => {
 
 opcion1.addEventListener('click',function(){
     bloque.style.display="none";
-    document.body.style.backgroundImage = 'url("taylorBackground.jpg")';
+    document.body.style.backgroundImage = 'url("../static/assets/taylorBackground.jpg")';
 
     const nuevoDiv = document.createElement('div');
     nuevoDiv.style.display = 'flex';
     nuevoDiv.style.flexDirection = 'column';
     nuevoDiv.style.alignItems = 'center';
     nuevoDiv.style.justifyContent = 'center';
-    nuevoDiv.style.height = '100vh'; // Asegura que el div ocupe toda la altura de la ventana
+    nuevoDiv.style.height = '95vh'; // Asegura que el div ocupe toda la altura de la ventana
     
     const nuevaImagen = document.createElement('img');
-    nuevaImagen.src = 'juntosEnEspejo.jpeg'; // Reemplaza 'tu_imagen.jpg' con la ruta correcta a tu imagen
+    nuevaImagen.src = '../static/assets/juntosEnEspejo.jpeg'; // Reemplaza 'tu_imagen.jpg' con la ruta correcta a tu imagen
     nuevaImagen.style.display = 'block';
-    nuevaImagen.style.height = '220px';
+    nuevaImagen.style.height = '420px';
 
     // Crear y configurar el elemento h1
     const nuevoH1 = document.createElement('h1');
